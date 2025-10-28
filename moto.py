@@ -7,3 +7,7 @@ class Moto(Veicolo):
 
     def descrizione(self):
         return f"Moto con motore {self.tipo_motore}, {self.posti} posti e manubrio di tipo {self.tipo_manubrio}."
+
+    def cambia_manubrio(self, nuovo_tipo):
+        self.tipo_manubrio = nuovo_tipo
+        return f"Il manubrio è stato cambiato a tipo {self.tipo_manubrio}."
