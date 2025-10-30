@@ -1,7 +1,7 @@
 from auto.py import Veicolo
 
 class Moto(Veicolo):
-    def __init__(self, tipo_motore, posti, tipo_manubrio):
+    def __init__(self, tipo_motore, posti, ):
         super().__init__(tipo_motore, posti)
         self.tipo_manubrio = tipo_manubrio
 
